@@ -32,7 +32,7 @@ NMF 的關鍵在於找到合適的 \( W \) 和 \( H \) 以最小化 \( V \) 和 
 
 給定一個非負矩陣 $V \in \mathbb{R}^{m \times n}$，NMF的目標是找到兩個非負矩陣 $W \in \mathbb{R}^{m \times k}$ 和 $H \in \mathbb{R}^{k \times n}$，使得：
 
-$ V \approx WH $
+$$ V \approx WH $$
 
 這裡 $k$ 是一個小於 $m$ 和 $n$ 的數字，它決定了分解的等級。
 
@@ -42,9 +42,9 @@ NMF的目標是最小化 $V$ 和 $WH$ 之間的差異。常用的方法是最小
 
 $$ \min_{W,H} \ \| V - WH \|_F^2 $$
 
-其中，$\| A \|_F$ 表示矩陣 $A$ 的Frobenius範數，計算為：
+其中，$$\| A \|_F$$ 表示矩陣 $A$ 的Frobenius範數，計算為：
 
-$ \| A \|_F = \sqrt{\sum_{i,j} a_{ij}^2} $
+$$ \| A \|_F = \sqrt{\sum_{i,j} a_{ij}^2} $$
 
 ### 約束條件
 
@@ -60,9 +60,9 @@ NMF的一種常見求解方法是使用交替最小化策略，即固定 $W$ 來
 
 例如，可以使用梯度下降法來逐步更新 $W$ 和 $H$。更新公式如下：
 
-$ H_{\text{new}} = H - \alpha \frac{\partial}{\partial H} \| V - WH \|_F^2 $
+$$ H_{\text{new}} = H - \alpha \frac{\partial}{\partial H} \| V - WH \|_F^2 $$
 
-$ W_{\text{new}} = W - \alpha \frac{\partial}{\partial W} \| V - WH \|_F^2 $
+$$ W_{\text{new}} = W - \alpha \frac{\partial}{\partial W} \| V - WH \|_F^2 $$
 
 其中，$\alpha$ 是學習率，決定了每次迭代時更新的步長。
 
