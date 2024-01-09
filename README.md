@@ -42,7 +42,7 @@ NMF的目標是最小化 $V$ 和 $WH$ 之間的差異。常用的方法是最小
 
 $$ \min_{W,H} \ \| V - WH \|_F^2 $$
 
-其中，$$\| A \|_F$$ 表示矩陣 $A$ 的Frobenius範數，計算為：
+其中， $$\| A \|_F$$ 表示矩陣 $A$ 的Frobenius範數，計算為：
 
 $$ \| A \|_F = \sqrt{\sum_{i,j} a_{ij}^2} $$
 
@@ -50,7 +50,7 @@ $$ \| A \|_F = \sqrt{\sum_{i,j} a_{ij}^2} $$
 
 由於NMF僅允許非負元素，因此 $W$ 和 $H$ 的所有元素都必須非負：
 
-$ w_{ij} \geq 0 \, \forall i,j \quad \text{和} \quad h_{ij} \geq 0 \, \forall i,j $
+$$ w_{ij} \geq 0 \, \forall i,j \quad \text{和} \quad h_{ij} \geq 0 \, \forall i,j $$
 
 ### 求解方法
 
