@@ -186,7 +186,7 @@ def apply_nmf_to_image_channels(image_path, n_components=16):
 
 
 ```python
-image_path = r"C:\Users\B20770\Desktop\影像資料\006.wound_dataset_壢新醫院\images\175732.jpg"
+image_path = r"your image path"
 
 apply_nmf_to_image_channels(image_path, n_components=7)
 ```
