@@ -40,7 +40,7 @@ $ V \approx WH $
 
 NMF的目標是最小化 $V$ 和 $WH$ 之間的差異。常用的方法是最小化二者之間的Frobenius範數的平方，即：
 
-$ \min_{W,H} \ \| V - WH \|_F^2 $
+$$ \min_{W,H} \ \| V - WH \|_F^2 $$
 
 其中，$\| A \|_F$ 表示矩陣 $A$ 的Frobenius範數，計算為：
 
