@@ -32,7 +32,9 @@ NMF 的關鍵在於找到合適的 \( W \) 和 \( H \) 以最小化 \( V \) 和 
 
 給定一個非負矩陣 $V \in \mathbb{R}^{m \times n}$，NMF的目標是找到兩個非負矩陣 $W \in \mathbb{R}^{m \times k}$ 和 $H \in \mathbb{R}^{k \times n}$，使得：
 
+
 $$ V \approx WH $$
+
 
 這裡 $k$ 是一個小於 $m$ 和 $n$ 的數字，它決定了分解的等級。
 
