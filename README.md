@@ -46,9 +46,7 @@ $$ \min_{W,H} \ \| V - WH \|_F^2 $$
 
 其中， $$\| A \|_F$$ 表示矩陣 $A$ 的Frobenius範數，計算為：
 
-$$ \| A \|_F = \sqrt{\sum_{i,j} a_{ij}^2}  $$
-
-$$ \| A \|_F = \sqrt{\sum_{i,j} a_{ij}^2} $$
+$ \| A \|_F = \sqrt{\sum_{i,j} a_{ij}^2} $
 
 ### 約束條件
 
