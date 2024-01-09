@@ -66,7 +66,7 @@ $$ H_{\text{new}} = H - \alpha \frac{\partial}{\partial H} \| V - WH \|_F^2 $$
 
 $$ W_{\text{new}} = W - \alpha \frac{\partial}{\partial W} \| V - WH \|_F^2 $$
 
-其中， $$\alpha$$ 是學習率，決定了每次迭代時更新的步長。
+其中， $\alpha$ 是學習率，決定了每次迭代時更新的步長。
 
 ### 最終目標
 
